@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 40px 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: rgb(16, 15, 15);
+}
+
+header {
+    background-color: rgba(223, 216, 216, 0.8);
+    padding: 20px;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+
+.links a {
+    margin-left: 20px;
+}
