@@ -48,3 +48,30 @@ header a:hover {
 .links a {
     margin-left: 15px;
 }
+
+article {
+    border: 1px solid rgb(171, 167, 167);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(244, 246, 243);
+    padding: 10px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+article:first-of-type {
+    margin-top: 20px;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+img,
+div {
+    margin-left: 20px;
+}
