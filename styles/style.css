@@ -20,7 +20,7 @@ header {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
@@ -177,4 +177,80 @@ div {
 
 .container1 a:hover {
     color: rgb(129, 127, 231);
+}
+
+.item0 {
+    grid-area: myAr0;
+}
+
+.item1 {
+    grid-area: myAr1;
+    width: 50%;
+    padding-right: 100pt;
+    font-weight: bold;
+}
+
+.item2 {
+    grid-area: myAr2;
+
+}
+
+.item3 {
+    grid-area: myAr3;
+
+}
+
+.item4 {
+    grid-area: myAr4;
+
+}
+
+.item5 {
+    grid-area: myAr5;
+
+}
+
+.item6 {
+    grid-area: myAr6;
+
+}
+
+.item7 {
+    grid-area: myAr7;
+
+}
+
+.item8 {
+    grid-area: myAr8;
+
+}
+
+.item9 {
+    grid-area: myAr9;
+
+}
+
+.item10 {
+    grid-area: myAr10;
+
+}
+
+.item11 {
+    grid-area: myAr11;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'myAr0  myAr0 myAr0 myAr0'
+        'myAr1  myAr2 myAr3 myAr3'
+        'myAr1  myAr4 myAr5 myAr5'
+        'myAr1  myAr6 myAr7 myAr7'
+        'myAr1  myAr8 myAr9 myAr9'
+        'myAr1  myAr10 myAr11 myAr11';
+
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    width: 800pt;
 }
