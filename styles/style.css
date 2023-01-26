@@ -10,7 +10,23 @@ body {
 }
 
 header {
-    padding: 40px 10px;
+    /* position: fixed; */
+    padding: 10px 10px 0px 10px;
+    top: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 100px;
+    background: rgba(237, 227, 227, 0.8);
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 100px;
+    background: rgba(237, 227, 227, 0.8);
 }
 
 .container {
@@ -18,6 +34,13 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.container1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 a {
@@ -145,4 +168,13 @@ div {
 
     background-color: white;
 
+}
+
+.container1 h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container1 a:hover {
+    color: rgb(129, 127, 231);
 }
