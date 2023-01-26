@@ -116,14 +116,26 @@ div {
     background-color: #3574cc;
 }
 
+.d2:hover a {
+    color: #3574cc;
+}
+
 .d3 {
     border: 2px solid #d03749;
     background-color: #d03749;
 }
 
+.d3:hover a {
+    color: #d03749;
+}
+
 .d4 {
     border: 2px solid #f18706;
     background-color: #f18706;
+}
+
+.d4:hover a {
+    color: #f18706;
 }
 
 .d1:hover,
