@@ -240,6 +240,41 @@ div {
 
 }
 
+.item12 {
+    grid-area: myAr12;
+
+}
+
+.item13 {
+    grid-area: myAr13;
+
+}
+
+.item14 {
+    grid-area: myAr14;
+
+}
+
+.item15 {
+    grid-area: myAr15;
+
+}
+
+.item16 {
+    grid-area: myAr16;
+
+}
+
+.item17 {
+    grid-area: myAr17;
+
+}
+
+.item18 {
+    grid-area: myAr18;
+
+}
+
 .grid-container {
     display: grid;
     grid-template-areas: 'myAr0  myAr0 myAr0 myAr0'
@@ -247,7 +282,11 @@ div {
         'myAr1  myAr4 myAr5 myAr5'
         'myAr1  myAr6 myAr7 myAr7'
         'myAr1  myAr8 myAr9 myAr9'
-        'myAr1  myAr10 myAr11 myAr11';
+        'myAr1  myAr10 myAr11 myAr11'
+        'myAr12  myAr13 myAr14 myAr14'
+        'myAr12  myAr15 myAr16 myAr16'
+        'myAr12  myAr17 myAr18 myAr18'
+        'myAr12  myAr19 myAr20 myAr20';
 
     gap: 10px;
     padding: 10px;
