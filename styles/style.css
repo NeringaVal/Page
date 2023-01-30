@@ -348,3 +348,7 @@ div {
     justify-content: center;
     width: 800pt;
 }
+
+samp {
+    font-weight: bold;
+}
