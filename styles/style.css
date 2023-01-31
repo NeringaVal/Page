@@ -112,7 +112,7 @@ div {
     align-items: centert;
     padding: 10px;
     margin: 0px auto;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 18px;
     text-transform: ;
     transition-duration: 0.4s;
@@ -180,7 +180,7 @@ div {
 }
 
 .container1 h2 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 18px;
 }
 
@@ -197,7 +197,7 @@ div {
     grid-area: myAr1;
     width: 50%;
     padding-right: 100pt;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 
@@ -256,7 +256,7 @@ div {
     grid-area: myAr12;
     width: 50%;
     padding-right: 100pt;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .item13 {
@@ -303,7 +303,7 @@ div {
     grid-area: myAr21;
     width: 50%;
     padding-right: 100pt;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .item22 {
@@ -350,7 +350,7 @@ div {
 }
 
 samp {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .form-container {
@@ -382,4 +382,25 @@ samp {
     background-color: rgba(237, 227, 227, 0.8);
     padding: 10px;
     margin-top: 5px;
+}
+
+.d5 {
+    margin-top: 5px;
+    text-align: right;
+
+}
+
+.d5 button {
+    transition-duration: 0.4s;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #f18706;
+    background-color: #f18706;
+    font-weight: bolder;
+}
+
+.d5 button:hover {
+    background-color: white;
+    color: #f18706;
 }
