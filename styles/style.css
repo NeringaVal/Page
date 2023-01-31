@@ -53,7 +53,6 @@ a:visited {
 }
 
 header {
-
     padding: 20px;
 }
 
@@ -65,7 +64,6 @@ header a:hover {
 .home a {
     margin-left: 5px;
     font-size: 28px;
-
 }
 
 .links a {
@@ -98,7 +96,6 @@ article img {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-
 }
 
 img,
@@ -174,9 +171,7 @@ div {
 .d2:hover,
 .d3:hover,
 .d4:hover {
-
     background-color: white;
-
 }
 
 .container1 h2 {
@@ -198,58 +193,46 @@ div {
     width: 50%;
     padding-right: 100pt;
     font-weight: bolder;
-
 }
 
 .item2 {
     grid-area: myAr2;
-
 }
 
 .item3 {
     grid-area: myAr3;
-
-
 }
 
 .item4 {
     grid-area: myAr4;
-
 }
 
 .item5 {
     grid-area: myAr5;
-
 }
 
 .item6 {
     grid-area: myAr6;
-
 }
 
 .item7 {
     grid-area: myAr7;
-
 }
 
 .item8 {
     grid-area: myAr8;
-
 }
 
 .item9 {
     grid-area: myAr9;
-
 }
 
 .item10 {
     grid-area: myAr10;
-
 }
 
 .item11 {
     grid-area: myAr11;
-
 }
 
 .item12 {
@@ -261,42 +244,34 @@ div {
 
 .item13 {
     grid-area: myAr13;
-
 }
 
 .item14 {
     grid-area: myAr14;
-
 }
 
 .item15 {
     grid-area: myAr15;
-
 }
 
 .item16 {
     grid-area: myAr16;
-
 }
 
 .item17 {
     grid-area: myAr17;
-
 }
 
 .item18 {
     grid-area: myAr18;
-
 }
 
 .item19 {
     grid-area: myAr19;
-
 }
 
 .item20 {
     grid-area: myAr20;
-
 }
 
 .item21 {
@@ -308,12 +283,10 @@ div {
 
 .item22 {
     grid-area: myAr22;
-
 }
 
 .item23 {
     grid-area: myAr23;
-
 }
 
 .item24 {
@@ -387,7 +360,6 @@ samp {
 .d5 {
     margin-top: 5px;
     text-align: right;
-
 }
 
 .d5 button {
